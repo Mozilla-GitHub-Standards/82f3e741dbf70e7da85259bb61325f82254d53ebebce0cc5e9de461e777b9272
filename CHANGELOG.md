@@ -1,3 +1,9 @@
+# HEAD
+
+## Bug Fixes
+
+* **css:** (breaking) Update protocol/tokens v3.0.0
+
 # 5.0.0
 
 ## Features
