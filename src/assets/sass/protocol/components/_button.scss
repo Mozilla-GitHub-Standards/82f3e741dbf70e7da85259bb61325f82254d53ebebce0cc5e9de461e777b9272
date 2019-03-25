@@ -18,7 +18,7 @@
     cursor: pointer;
     display: inline-block;
     font-weight: bold;
-    padding: ($padding-md - 2px) ($padding-xl - 2px); //2px extra padding removed to compensate for 2px border.
+    padding: ($spacing-md - 2px) ($spacing-xl - 2px); //2px extra padding removed to compensate for 2px border.
     text-decoration: none;
 
     &:focus,
@@ -37,7 +37,7 @@
 }
 
 .mzp-c-button.mzp-t-small {
-    padding: ($padding-sm - 2px) ($padding-md - 2px);
+    padding: ($spacing-sm - 2px) ($spacing-md - 2px);
 }
 
 .mzp-c-button.mzp-t-dark  {
@@ -109,7 +109,7 @@
 }
 
 .mzp-c-button.mzp-t-product.mzp-t-small {
-    padding: $padding-sm $padding-md;
+    padding: $spacing-sm $spacing-md;
 }
 
 .mzp-c-button.mzp-t-product.mzp-t-secondary {
@@ -144,7 +144,7 @@
 .mzp-c-button-download-privacy-link {
     @include text-body-xs;
     display: block;
-    margin-top: $margin-md;
+    margin-top: $spacing-md;
 
     a:link,
     a:visited {
